@@ -44,7 +44,7 @@ export default defineConfig(({ mode }) => {
         '@tabler/icons-react': '@tabler/icons-react/dist/esm/icons/index.mjs'
       }
     },
-    base: '/',
+    base: API_URL,
     plugins: [react(), jsconfigPaths()]
   };
 });
